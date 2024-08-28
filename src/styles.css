@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left-zone {
+  width: 20%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-zone {
+  width: 80%;
+  padding: 20px;
+  position: relative;
+}
+
+.divider {
+  width: 2px;
+  background-color: #ccc;
+}
+
+.draggable-item {
+  cursor: move;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.item-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.item-buttons .draggable-item {
+  font-size: 24px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  text-align: center;
+}
+
+.clear-all-button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+textarea {
+  height: 50px;
+}
